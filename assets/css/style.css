@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+section{
+    display: flex;
+}
+
+.redball{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    background-color: red;
+    padding: 50px;
+
+    transition: transform 2s linear ;
+}
+
+.redball:active{
+    transform: translateX(210px);
+}
+
+.blueball{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: blue;
+    margin-top: 100px;
+    margin-left: 200px;
+
+    transition: transform 2s linear 4s;
+}
+
+.blueball{
+    transform: translateX(200px);
+}
+
+
